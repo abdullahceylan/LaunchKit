@@ -1,10 +1,16 @@
 {
   "dependencies": {
     "skit": "latest",
-    "minimist": "1.1.0"
+    "minimist": "1.1.0",
+    "snyk": "^1.189.0"
   },
   "description": "...",
   "readme": "...",
   "repository": {},
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
