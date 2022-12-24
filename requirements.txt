@@ -18,3 +18,4 @@ requests==2.5.3
 sqlalchemy==0.9.8
 tweepy==3.3.0
 ua-parser==0.3.6
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
